@@ -34,7 +34,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build
-        run: ./gradlew assembleArmv8Debug
+        run: ./gradlew Noti Progress Bar
 
       - name: Build Version
         run: ./gradlew getVersion
